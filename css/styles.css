@@ -1,0 +1,30 @@
+
+.cuadrado-container {
+    display: flex;
+    justify-content: space-between;
+    height: 20em;
+    width: 20em;
+  }
+  
+  .cuadrado {
+    width: 5em;
+    height: 5em;
+    transition: all 0.3s;
+  }
+
+
+    .rojo {
+        background-color: #ff0000;
+      }
+      
+      .azul {
+        background-color: #0000ff;
+      }
+      
+      .verde {
+        background-color: #00ff00;
+      }
+      
+      .amarillo {
+        background-color: #ffff00;
+      }
