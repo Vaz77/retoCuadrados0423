@@ -1,29 +1,40 @@
 
 .cuadrado-container {
     display: flex;
-    justify-content: space-between;
-    height: 20em;
-    width: 20em;
+    width: 50em;
+    height: 5em;
+    margin-right: 40em;
+    background-color: #ffffff;
+    margin-top: 25em;
+    margin-left: 43em;
   }
   
   .cuadrado {
     width: 5em;
     height: 5em;
-    transition: all 0.3s;
+    transition: all 3s;
   }
 
+  .cuadrado:hover {
+    transform: rotate(100deg);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
 
     .rojo {
         background-color: #ff0000;
+        transform: translate(6em, 3em);
+        
       }
       
       .azul {
         background-color: #0000ff;
+        transform: rotate();
       }
       
       .verde {
         background-color: #00ff00;
-      }
+     }
+    
       
       .amarillo {
         background-color: #ffff00;
