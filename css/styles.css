@@ -22,20 +22,19 @@
 
     .rojo {
         background-color: #ff0000;
-        transform: translate(6em, 3em);
-        
+        transform: translate(-3em, -3em)
       }
       
       .azul {
         background-color: #0000ff;
-        transform: rotate();
+        transform: translate(-7em, -7em)
       }
       
       .verde {
-        background-color: #00ff00;
+        background-color: #00ff00;      
      }
     
-      
       .amarillo {
         background-color: #ffff00;
+        transform: translate(-3em, -3em);
       }
